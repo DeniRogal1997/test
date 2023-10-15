@@ -12,7 +12,7 @@ const req = () => {
 
 
 const reg = () => {
-    fetch('https://deni-online.ru/users',
+    fetch('https://deni-online.ru/users/',
 {
     headers: {
       'Accept': 'application/json',

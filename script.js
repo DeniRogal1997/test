@@ -2,7 +2,7 @@ const req = () => {
     let formData = new FormData();
     formData.append('username', document.getElementById("Имя").value)
     formData.append('password', document.getElementById("Пароль").value)
-    fetch('http://95.163.240.179:8000/login', {method:'POST',
+    fetch('https://deni-online.ru/login', {method:'POST',
       body: formData,
     }).then(res => {
         if (res.status == 200) 
@@ -12,7 +12,7 @@ const req = () => {
 
 
 const reg = () => {
-    fetch('http://95.163.240.179:8000/users',
+    fetch('http://deni-online.ru/users',
 {
     headers: {
       'Accept': 'application/json',

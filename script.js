@@ -6,7 +6,7 @@ const req = () => {
       body: formData,
     }).then(res => {
         if (res.status == 200) 
-        {window.location.href='/mainpage/mainpage.html'}
+        {window.location.href='./mainpage.html'}
         else (alert('Неправильный логин или пароль'))})
 }
 
